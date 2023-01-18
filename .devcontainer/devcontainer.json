@@ -3,16 +3,16 @@
 {
 	"name": "Ubuntu",
 	// Or use a Dockerfile or Docker Compose file. More info: https://containers.dev/guide/dockerfile
-	"image": "mcr.microsoft.com/devcontainers/base:jammy",
+	"image": "mcr.microsoft.com/devcontainers/base:ubuntu-22.04",
 	"features": {
-		"ghcr.io/devcontainers/features/terraform:1": {},
+		// "ghcr.io/devcontainers/features/terraform:1": {}, !!not working!!
 		"ghcr.io/dhoeric/features/google-cloud-cli:1": {}
 	},
 	"extensions": [
 		"hashicorp.terraform",
 		"hashicorp.hcl",
 		"hashicorp.sentinel",
-		"googlecloudtools.cloudcode",
+		// "googlecloudtools.cloudcode",
 		"github.vscode-pull-request-github"
 	],
 
