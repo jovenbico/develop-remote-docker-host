@@ -21,8 +21,8 @@
 		"hashicorp.terraform",
 		"hashicorp.hcl",
 		"hashicorp.sentinel",
-		// "googlecloudtools.cloudcode",
-		"github.vscode-pull-request-github"
+		"github.vscode-pull-request-github",
+		"eamodio.gitlens"
 	],
 
 	// Features to add to the dev container. More info: https://containers.dev/features.
